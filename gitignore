@@ -1,0 +1,21 @@
+# данные игроков и сервера: никогда не коммитить
+server/server_data/
+*.db
+*.db-wal
+*.db-shm
+
+# сохранения и служебные файлы Ren'Py
+game/saves/
+game/cache/
+game/*.rpyc
+game/*.rpymc
+persistent
+log.txt
+traceback.txt
+errors.txt
+
+# Python и секреты
+__pycache__/
+*.pyc
+.env
+.venv/
